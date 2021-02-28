@@ -1,0 +1,36 @@
+<html>
+ <head>
+<meta charset="UTF-8">
+ <title>Snake Game</title>
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        var from = null, start = 0;
+        $(document).ready(function () {
+            from = prompt("Please Enter Your Name");
+           
+            alert("Welcome " + from);
+        })
+    </script>
+    
+ <style >
+     body {
+        background-image: url(pp.jpg);
+        background-repeat: no-repeat;
+         background-size: cover;
+
+        }
+     canvas{
+         display: block;
+         margin: 0 auto;
+         
+     }
+      
+
+ </style>
+  
+</head>
+<canvas id="snake" width="608" height="608"></canvas>
+<script src="snake.js"></script>
+
+ 
+</html>
